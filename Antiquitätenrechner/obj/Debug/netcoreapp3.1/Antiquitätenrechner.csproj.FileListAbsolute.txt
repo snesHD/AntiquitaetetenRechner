@@ -1,0 +1,13 @@
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.exe
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.deps.json
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.runtimeconfig.json
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.runtimeconfig.dev.json
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.dll
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\bin\Debug\netcoreapp3.1\Antiquitätenrechner.pdb
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.csprojAssemblyReference.cache
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.AssemblyInfoInputs.cache
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.AssemblyInfo.cs
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.csproj.CoreCompileInputs.cache
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.dll
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.pdb
+E:\c#\Antiquitätenrechner\Antiquitätenrechner\obj\Debug\netcoreapp3.1\Antiquitätenrechner.genruntimeconfig.cache
