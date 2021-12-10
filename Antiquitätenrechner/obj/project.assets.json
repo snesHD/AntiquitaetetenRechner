@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\c#\\Antiquitätenrechner\\Antiquitätenrechner\\Antiquitätenrechner.csproj",
+      "projectUniqueName": "E:\\github\\AntiquitaetetenRechner\\Antiquitätenrechner\\Antiquitätenrechner.csproj",
       "projectName": "Antiquitätenrechner",
-      "projectPath": "E:\\c#\\Antiquitätenrechner\\Antiquitätenrechner\\Antiquitätenrechner.csproj",
+      "projectPath": "E:\\github\\AntiquitaetetenRechner\\Antiquitätenrechner\\Antiquitätenrechner.csproj",
       "packagesPath": "C:\\Users\\ibo14\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\Antiquitätenrechner\\Antiquitätenrechner\\obj\\",
+      "outputPath": "E:\\github\\AntiquitaetetenRechner\\Antiquitätenrechner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ibo14\\AppData\\Roaming\\NuGet\\NuGet.Config",
