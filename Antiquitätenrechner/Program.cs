@@ -44,7 +44,7 @@ namespace Antiquitätenrechner
                     ConsoleKeyInfo preisOK = Console.ReadKey();
                     if (preisOK.Key == ConsoleKey.Y)
                     {
-                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + abschlag;
+                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
                     }
                     else
                     {
@@ -60,7 +60,7 @@ namespace Antiquitätenrechner
                     ConsoleKeyInfo preisOK = Console.ReadKey();
                     if (preisOK.Key == ConsoleKey.Y)
                     {
-                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + abschlag;
+                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
                     }
                     else
                     {
