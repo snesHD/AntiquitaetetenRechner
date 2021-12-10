@@ -16,13 +16,13 @@ namespace Antiquitätenrechner
                 Console.WriteLine("\nBitte geben Sie das Alter der Antitquität ein: ");
                 int alter = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Geben Sie den Schätzwert der Antiquität bitte ein: ");
+                Console.WriteLine("Geben Sie den Schätzwert der Antiquität in EURO, Cent Beträge bitte mit einem Komma eingeben!: ");
                 double antiquität = Convert.ToDouble(Console.ReadLine());
 
                 if (alter > 50)
                 {
                     abschlag = antiquität / 100 * 10;
-                    preis = antiquität - abschlag;
+                    preis = Math.Round(antiquität - abschlag,2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
@@ -38,7 +38,7 @@ namespace Antiquitätenrechner
                 else if (alter > 25)
                 {
                     abschlag = antiquität / 100 * 15;
-                    preis = antiquität - abschlag;
+                    preis = Math.Round(antiquität - abschlag, 2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
@@ -54,7 +54,7 @@ namespace Antiquitätenrechner
                 else
                 {
                     abschlag = antiquität / 100 * 30;
-                    preis = antiquität - abschlag;
+                    preis = Math.Round(antiquität - abschlag, 2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
@@ -72,7 +72,7 @@ namespace Antiquitätenrechner
                 Console.Clear();
             } while (weitere.Key == ConsoleKey.Y);
 
-            Console.WriteLine("\nGesamteinkaufspreis ist: " + GesamtEinkaufsPreis + " EURO");
+            Console.WriteLine("\nGesamteinkaufspreis ist: " + Math.Round(GesamtEinkaufsPreis,2) + " EURO");
         }
     }
 }
