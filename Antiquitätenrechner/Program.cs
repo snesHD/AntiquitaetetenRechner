@@ -17,12 +17,12 @@ namespace Antiquitätenrechner
                 int alter = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Geben Sie den Schätzwert der Antiquität in EURO, Cent Beträge bitte mit einem Komma eingeben!: ");
-                double antiquität = Convert.ToDouble(Console.ReadLine());
+                double schaetzwert = Convert.ToDouble(Console.ReadLine());
 
                 if (alter > 50)
                 {
-                    abschlag = antiquität / 100 * 10;
-                    preis = Math.Round(antiquität - abschlag,2);
+                    abschlag = schaetzwert / 100 * 10;
+                    preis = Math.Round(schaetzwert - abschlag,2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
@@ -37,8 +37,8 @@ namespace Antiquitätenrechner
                 }
                 else if (alter > 25)
                 {
-                    abschlag = antiquität / 100 * 15;
-                    preis = Math.Round(antiquität - abschlag, 2);
+                    abschlag = schaetzwert / 100 * 15;
+                    preis = Math.Round(schaetzwert - abschlag, 2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
@@ -53,8 +53,8 @@ namespace Antiquitätenrechner
                 }
                 else
                 {
-                    abschlag = antiquität / 100 * 30;
-                    preis = Math.Round(antiquität - abschlag, 2);
+                    abschlag = schaetzwert / 100 * 30;
+                    preis = Math.Round(schaetzwert - abschlag, 2);
                     Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
                     Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
                     ConsoleKeyInfo preisOK = Console.ReadKey();
