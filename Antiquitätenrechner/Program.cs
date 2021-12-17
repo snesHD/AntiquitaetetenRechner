@@ -22,50 +22,28 @@ namespace Antiquitätenrechner
                 if (alter > 50)
                 {
                     abschlag = schaetzwert / 100 * 10;
-                    preis = Math.Round(schaetzwert - abschlag,2);
-                    Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
-                    Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
-                    ConsoleKeyInfo preisOK = Console.ReadKey();
-                    if (preisOK.Key == ConsoleKey.Y)
-                    {
-                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
-                    }
-                    else
-                    {
-                        preis = 0;
-                    }
+                    
                 }
                 else if (alter > 25)
                 {
                     abschlag = schaetzwert / 100 * 15;
-                    preis = Math.Round(schaetzwert - abschlag, 2);
-                    Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
-                    Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
-                    ConsoleKeyInfo preisOK = Console.ReadKey();
-                    if (preisOK.Key == ConsoleKey.Y)
-                    {
-                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
-                    }
-                    else
-                    {
-                        preis = 0;
-                    }
                 }
                 else
                 {
                     abschlag = schaetzwert / 100 * 30;
-                    preis = Math.Round(schaetzwert - abschlag, 2);
-                    Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
-                    Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
-                    ConsoleKeyInfo preisOK = Console.ReadKey();
-                    if (preisOK.Key == ConsoleKey.Y)
-                    {
-                        GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
-                    }
-                    else
-                    {
-                        preis = 0;
-                    }
+                }
+
+                preis = Math.Round(schaetzwert - abschlag, 2);
+                Console.WriteLine("\nAngebotener Preis ist: " + preis + " EURO");
+                Console.WriteLine("\nSind Sie mit dem Preis einverstanden?:\t[Y/N]");
+                ConsoleKeyInfo preisOK = Console.ReadKey();
+                if (preisOK.Key == ConsoleKey.Y)
+                {
+                    GesamtEinkaufsPreis = GesamtEinkaufsPreis + preis;
+                }
+                else
+                {
+                    preis = 0;
                 }
                 Console.WriteLine("\nMöchten Sie weitere Antiquitäten verkaufen?:\t[Y/N]");
                 weitere = Console.ReadKey();
